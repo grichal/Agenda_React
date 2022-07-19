@@ -1,4 +1,4 @@
-este es mi proyecto de la agenda de contactos con Reactjs, espero y le guste!.
+Este es mi proyecto de la agenda de contactos con Reactjs, espero y le guste!.
 
 
 ![image](https://user-images.githubusercontent.com/100645620/179643717-51d3168e-6b3c-41d2-8885-c5c4ed173cfa.png)
