@@ -1,0 +1,109 @@
+/***** contactForm *****/
+
+.contact-form-div {
+    background-color: #260537;
+    margin-top: 200px;
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.form-header {
+    display: grid;
+    grid-template-columns: [first] 90% [second] 10%;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.btnGuardar{
+    background-color: #532c66;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    opacity: 0.9;
+    border-radius: 20px;
+    margin: 0 35%;
+    font-family: intro;
+}
+
+.form-title {
+    padding-left: 40px;
+}
+
+
+.contact-form {
+    text-align: left;
+    position: relative;
+    max-width: 300px;
+    padding-top: 16px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    display: block;
+    transform: 0%;
+}
+.spread{
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(120vh);
+}
+
+.overlay-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=text],
+input[type=tel] {
+    border: none;
+    border-radius: 20px;
+    background: #3a154d;
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+
+}
+
+input[type=text]:focus,
+input[type=tel]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.cerrar {
+    align-self: start;
+    background-color: #4a1c63;
+    border: none;
+    height: 30px;
+    width: 88px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: -50px;
+    border-radius: 10px;
+    font-family: intro;
+}
