@@ -1,4 +1,4 @@
-Gregorio Alejndro Caba Gonzalez 2021-1422
+Gregorio Alejandro Caba Gonzalez 2021-1422
 
 
 imagenes de mi agenda
